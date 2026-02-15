@@ -1,4 +1,4 @@
-# google-flights-cli
+# google-search-cli
 
 Bun + Commander.js flights CLI.
 
@@ -136,7 +136,7 @@ This repo includes an OpenClaw skill directory for publishing and installation.
 After you’re ready to publish:
 
 ```bash
-cd /path/to/google-flights-cli
+cd /path/to/google-search-cli
 clawhub publish ./skills/google-search-cli --slug google-search-cli --name google-search-cli --version 0.1.0 --changelog "Initial published skill"
 ```
 

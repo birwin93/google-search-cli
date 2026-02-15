@@ -6,7 +6,7 @@ metadata: {"openclaw":{"emoji":"✈️","requires":{"bins":["bun"]}}
 
 # Google Search CLI
 
-Use this skill to search for flights using the `google-flights` commands in `google-flights-cli`.
+Use this skill to search for flights using the `google-flights` commands in `google-search-cli`.
 
 ## When to use this skill
 
