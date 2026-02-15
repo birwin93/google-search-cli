@@ -25,14 +25,14 @@ Project guidance for coding agents working in this repository.
 
 ## Skill Packaging
 
-- Skill source: `skills/google-flights-cli/SKILL.md`
-- Packaging ignore list: `skills/google-flights-cli/.clawhubignore`
+- Skill source: `skills/google-search-cli/SKILL.md`
+- Packaging ignore list: `skills/google-search-cli/.clawhubignore`
 - Keep command examples and SKILL.md examples aligned so published docs stay accurate.
 
 Suggested local OpenClaw setup:
 
 ```bash
-cp -R skills/google-flights-cli ~/.openclaw/workspace/skills/
+cp -R skills/google-search-cli ~/.openclaw/workspace/skills/
 ```
 
 Examples:
@@ -57,7 +57,7 @@ bun run src/index.ts google-flights list --from SFO --to RSW --date 3/25 --retur
 - Publish from repo root once the skill file is complete:
 
 ```bash
-clawhub publish ./skills/google-flights-cli --slug google-flights-cli --name "Google Flights CLI" --version 0.1.0 --changelog "Initial skill setup"
+clawhub publish ./skills/google-search-cli --slug google-search-cli --name "Google Search CLI" --version 0.1.0 --changelog "Initial skill setup"
 ```
 
 ## Development Notes

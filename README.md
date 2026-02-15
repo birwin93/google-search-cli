@@ -130,14 +130,14 @@ bun run src/index.ts google-flights list \
 
 This repo includes an OpenClaw skill directory for publishing and installation.
 
-- Skill path: `skills/google-flights-cli/SKILL.md`
-- Ignore file: `skills/google-flights-cli/.clawhubignore`
+- Skill path: `skills/google-search-cli/SKILL.md`
+- Ignore file: `skills/google-search-cli/.clawhubignore`
 
 After you’re ready to publish:
 
 ```bash
 cd /path/to/google-flights-cli
-clawhub publish ./skills/google-flights-cli --slug google-flights-cli --name google-flights-cli --version 0.1.0 --changelog "Initial published skill"
+clawhub publish ./skills/google-search-cli --slug google-search-cli --name google-search-cli --version 0.1.0 --changelog "Initial published skill"
 ```
 
-For local skill usage in an OpenClaw workspace, place this repo (or the `skills` folder) under your workspace and reference `google-flights-cli` as a skill.
+For local skill usage in an OpenClaw workspace, place this repo (or the `skills` folder) under your workspace and reference `google-search-cli` as a skill.

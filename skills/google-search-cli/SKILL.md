@@ -1,12 +1,18 @@
 ---
-name: google-flights-cli
-description: Search and list flight options from Google Flights (via SerpAPI) from the command line.
-metadata: {"openclaw":{"emoji":"✈️","requires":{"bins":["bun"]}}}
+name: google-search-cli
+description: Use this skill to search Google Flights from the command line via SerpAPI (for looking up flight options, pricing, and schedules).
+metadata: {"openclaw":{"emoji":"✈️","requires":{"bins":["bun"]}}
 ---
 
-# Google Flights CLI Skill
+# Google Search CLI
 
-Use this skill to run `google-flights-cli` for flight search workflows.
+Use this skill to search for flights using the `google-flights` commands in `google-flights-cli`.
+
+## When to use this skill
+
+- Looking for flights for a route, date range, and fare preferences.
+- Need ranked flight options with airline or nonstop filtering.
+- Want raw SerpAPI payloads for downstream processing.
 
 ## What it does
 
