@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+bun.lock
+google-flights-cli-*.tgz
+coverage/
